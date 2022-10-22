@@ -1,13 +1,19 @@
+import { useEffect } from "react"
+
 export default function Contact() {
+    useEffect(()=> {
+        document.title = "Contact"
+    },[])
+
     return (
-        <section>
-            <h1>Contact Page</h1>
-            <p>You can contact me on : </p>
+        <section className="section">
+            <h1 className="section-title">Contact Page</h1>
+            <p className="section-description">You can contact me on : </p>
             <div>
                 <li>Phone : 0812345678910</li>
                 <li>E-mail : test@gmail.com</li>
             </div>
-            <p>Or You can find me on : </p>
+            <p className="section-description">Or You can find me on : </p>
             <div>
                 <li>
                     <a href="https://facebook.com/">Facebook</a>
