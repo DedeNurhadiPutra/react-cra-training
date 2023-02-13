@@ -13,14 +13,14 @@ function App() {
       <nav className="nav">
         <Link className="nav-item" to='/'>Home</Link>
         <Link className="nav-item" to='/profile'>Profile</Link>
-        <Link className="nav-item" to='/blog'>Blog</Link>
+        <Link className="nav-item" to='/anime'>Anime List</Link>
         <Link className="nav-item" to='/contact'>Contact</Link>
       </nav>
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='profile' element={<Profile />}></Route>
-        <Route path='blog' element={<Blog />}></Route>
-        <Route path='blog/:id' element={<BlogDetail />}></Route>
+        <Route path='anime' element={<Blog />}></Route>
+        <Route path='anime/:id' element={<BlogDetail />}></Route>
         <Route path='contact' element={<Contact />}></Route>
       </Routes>
     </div>

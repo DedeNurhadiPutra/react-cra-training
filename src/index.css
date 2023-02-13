@@ -105,3 +105,12 @@ code {
 .article-source a {
   text-decoration: none;
 }
+
+.card {
+  background-color: steelblue;
+  margin-bottom: 1rem;
+}
+
+.article-description {
+  text-align: justify;
+}
